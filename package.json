@@ -1,0 +1,23 @@
+{
+  "name": "the-odin-project-todo-list",
+  "version": "1.0.0",
+  "description": "The Odin Project | Full Stack Javascript | JavaScript | Organizing Your Javascript Code | Project: Todo List",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0"
+  }
+}
